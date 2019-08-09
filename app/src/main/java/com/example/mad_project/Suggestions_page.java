@@ -2,6 +2,7 @@ package com.example.mad_project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,12 +10,15 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.net.PortUnreachableException;
+
 public class Suggestions_page extends AppCompatActivity {
 
 
     private static Button buttonS;
     private static TextView textViewS;
     private static RatingBar ratingBars;
+    private Button button5;
 
 
     @Override
@@ -40,6 +44,8 @@ public class Suggestions_page extends AppCompatActivity {
             }
         });
 
+
+
     }
 
     public void onButtonClickListener(){
@@ -51,9 +57,36 @@ public class Suggestions_page extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(Suggestions_page.this,String.valueOf(ratingBars.getRating()),Toast.LENGTH_SHORT).show();
+
+                startViWePAge();
             }
         });
 
+        button5 =(Button) findViewById(R.id.cancelBtn);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                backToFeedBackPage();
+
+            }
+        });
+
+
+
+    }
+
+
+    public void startViWePAge(){
+
+        Intent intent=new Intent(this,ViewSuggetion.class);
+        startActivity(intent);
+
+    }
+
+    public void backToFeedBackPage(){
+        Intent intent= new Intent(this,FeedBackHomeActivity.class);
+        startActivity(intent);
 
     }
 

@@ -6,6 +6,6 @@
     <color name="TopColor">#FF8300</color>
     <color name="TopText">#C6070303</color>
     <color name="discrip">#D07C082A</color>
-    <color name="submit">#C4F79858</color>
-    <color name="ViewData">#BEE91E4D</color>
+    <color name="submitt">#C4F79858</color>
+    <color name="View">#BEE91E4D</color>
 </resources>

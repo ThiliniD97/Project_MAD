@@ -10,6 +10,8 @@
     <string name="enter_your_name">Enter your name</string>
     <string name="how_about_over_service">How about our service !</string>
     <string name="enter_your_phone_numbr">Enter Your phone numbr</string>
+    <string name="cancelbtnn">Cancel</string>
+    <string name="MYsugges">My Suggestions</string>
 
 
 </resources>
