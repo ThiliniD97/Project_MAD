@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">MAD_Project</string>
     <string name="sugges">Suggestions</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="Discription_1"> </string>
+    <string name="discrip">Whether You\'re Looking For More Information, Or You\'d Like To Let Us Know How We Did, You\'ll Find Easy Ways To Contact Us Right Here. We Would Love To Know What You Think Of Us !!!!</string>
+    <string name="submit">Submit</string>
+    <string name="cancelbtn">View My Suggestion</string>
+    <string name="rate_us">Rate Us out of 5</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="how_about_over_service">How about our service !</string>
+    <string name="enter_your_phone_numbr">Enter Your phone numbr</string>
+
+
 </resources>
