@@ -12,6 +12,12 @@
     <string name="enter_your_phone_numbr">Enter Your phone numbr</string>
     <string name="cancelbtnn">Cancel</string>
     <string name="MYsugges">My Suggestions</string>
+    <string name="_0117_888_888">0117 888 888</string>
+    <string name="info_thilinifood_com">info@ThiliniFood.com</string>
+    <string name="_389_negombo_road_wattala">389,A / 5 Isurupura malabe.</string>
+    <string name="address">389, Negombo Road, Wattala.</string>
+    <string name="phone">0117 888 888</string>
+    <string name="myEmail">info@Thilini_Food.com</string>
 
 
 </resources>
