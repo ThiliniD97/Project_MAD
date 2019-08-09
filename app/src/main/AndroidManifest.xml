@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ViewSuggetion"></activity>
+        <activity android:name=".View_Complains_Activity"></activity>
+        <activity android:name=".ViewSuggetion" />
         <activity android:name=".ContactUS" />
         <activity android:name=".ComplainPage" />
         <activity android:name=".Suggestions_page" />
